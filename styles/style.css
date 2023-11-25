@@ -107,11 +107,11 @@ fieldset {
 }
 
 .content__card-link_current:focus {
-  outline:none;
+  outline: none;
 }
 
 .content__card-link_current:focus-visible {
-  outline: 1px solid #fff
+  outline: 1px solid #fff;
 }
 .content__card-link_current:hover {
   text-decoration: underline;
@@ -128,7 +128,6 @@ fieldset {
   height: 100%;
   width: 100%;
 }
-
 
 .search-form__fieldset-title {
   font-family: "Fira Sans Condensed", sans-serif;
@@ -225,7 +224,7 @@ fieldset {
 
 .search-form__textfield:focus {
   outline: 1px solid #fff;
-  border:none;
+  border: none;
 }
 
 .search-form__textfield:active {
@@ -250,7 +249,7 @@ input[type="checkbox"]:checked + span {
 button {
   font-family: "Fira Sans Condensed", sans-serif;
   color: #fff;
-  margin-top:px;
+  margin-top: px;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
