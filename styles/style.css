@@ -60,7 +60,7 @@ fieldset {
 
 .content__list {
   position: relative;
-  max-height: 297px;
+  height: 298px;
   overflow-y: auto;
 }
 
@@ -68,7 +68,6 @@ fieldset {
   display: flex;
   flex-direction: column;
   min-width: 399px;
-  min-height: 534px;
   gap: 25px;
 }
 
@@ -144,11 +143,11 @@ fieldset {
   display: block;
   text-decoration: none;
   color: #fff;
-  margin: 1px;
+  margin: 2px;
 }
 
 .content__card-link:active {
-  background-color: #545050; /* взят из фигмы */
+  background-color: #545050;
 }
 
 .content__card-link:focus {
@@ -168,6 +167,7 @@ fieldset {
   font-weight: 700;
   line-height: 30px;
   font-size: 30px;
+  max-width: 200px;
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -182,6 +182,7 @@ fieldset {
   letter-spacing: 0em;
   text-align: left;
   margin-top: 6px;
+  max-width: 200px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -196,13 +197,14 @@ fieldset {
 .search-form__label {
   display: flex;
   appearance: none;
+  align-items: center;
   cursor: pointer;
 }
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
 }
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -274,7 +276,7 @@ button:hover {
 }
 
 button:focus {
-  border: none;
+  outline: none;
 }
 
 button:focus-visible {
