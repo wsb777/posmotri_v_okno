@@ -146,6 +146,10 @@ fieldset {
   margin: 2px;
 }
 
+.content__card-link:active{
+  background-color: #545050;
+}
+
 .content__card-link_current {
   background-color: #545050;
 }
