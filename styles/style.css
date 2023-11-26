@@ -145,7 +145,7 @@ fieldset {
   display: block;
   text-decoration: none;
   color: #fff;
-  margin:1px;
+  margin: 1px;
 }
 
 .content__card-link:active {
@@ -201,7 +201,7 @@ fieldset {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline:1px solid #fff;
+  outline: 1px solid #fff;
 }
 .search-form__label-text:hover {
   text-decoration: underline;
@@ -209,13 +209,13 @@ fieldset {
 
 .search-form__fieldset {
   gap: 6px;
-  max-width: 225px;;
+  max-width: 225px;
 }
 
 .search-form__textfield {
   background-color: transparent;
   border: none;
-  color:#fff;
+  color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -275,7 +275,7 @@ button:hover {
 }
 
 button:focus {
-  border:none;
+  border: none;
 }
 
 button:focus-visible {
